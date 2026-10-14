@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Feed | Kuha</title>
+        <link rel="stylesheet" href="../src/css/style.css">
+    </head>
+<body data-page="feed" data-auth="required" data-base="../">
+    <main class="wrap">
+<details class="comp">
+    <summary>Share a photo, video or thought</summary>
+<form id="post-form" class="panel" style="max-width:none">
+<label for="file">Photo or video (optional)</label><input id="file" name="file" type="file" accept="image/*,video/*">
+<label for="text">Caption</label><textarea id="text" name="text" rows="2" maxlength="280"></textarea>
+<label for="tag">Type</label><select id="tag" name="tag"><option>Photo</option><option>Video</option><option>BTS</option><option>Tip</option></select>
+<label>Poster color (for posts without media)</label><div class="swatches"><input type="radio" name="c" value="0" checked aria-label="Amber"><input type="radio" name="c" value="1" aria-label="Forest"><input type="radio" name="c" value="2" aria-label="Terracotta"><input type="radio" name="c" value="3" aria-label="Ink"></div>
+<p></p><button class="btn">Post</button></form></details>
+<div id="tags"></div><div id="posts"></div>
+</main><script src="../src/js/portfolio.js"></script>
+<script src="../src/js/main.js"></script>
+</body>
+</html>

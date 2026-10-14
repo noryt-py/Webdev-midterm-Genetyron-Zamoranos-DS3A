@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Profile | Kuha</title><link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body data-page="profile" data-auth="required" data-base="../"><main class="wrap">
+<div id="me" class="me"></div>
+<form id="bio-form" class="panel" style="max-width:none"><label for="bio">Bio (160 characters)</label><textarea id="bio" rows="2" maxlength="160"></textarea><p></p><button class="btn">Save bio</button></form>
+<section class="box" style="margin:24px 0">
+    <h2>Your privacy controls</h2>
+<label>
+    <input id="hl" type="checkbox" style="width:auto"> Hide like counts on my posts</label><p></p>
+<button id="exp" class="btn sm">Download my data</button> <button id="del" class="btn sm ghost">Delete my account</button></section>
+<h2>Your posts</h2><div id="posts"></div>
+</main><script src="../src/js/portfolio.js"></script>
+<script src="../src/js/main.js"></script>
+</body>
+</html>
