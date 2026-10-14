@@ -3,7 +3,7 @@
 Kuha is a privacy-first social media prototype I made for photographers and videographers. I styled it like a dark, cinematic studio portfolio grid. I used only HTML, CSS and vanilla JavaScript. There is no backend, database or API.
 
 ## Run it
-Open `index.html` in a browser, or use VS Code Live Server. You don't need to install anything or build anything.
+Open `index.html` in a browser. 
 
 ## Structure
 ```
